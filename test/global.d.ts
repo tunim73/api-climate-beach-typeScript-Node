@@ -1,8 +1,8 @@
 declare global {
-    //eslint-disable-next-line no-var
-    var testRequest: import("supertest").SuperTest<import("supertest").Test>;
-  }
-  export {};
+  //eslint-disable-next-line no-var
+  var testRequest: import('supertest').SuperTest<import('supertest').Test>;
+}
+export {};
 //Obs: tem mudanças aqui referente ao vídeo.
 
 /*
